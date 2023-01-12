@@ -13,7 +13,7 @@ export default function Contact() {
     }
   };
   return (
-    <form id="contact">
+    <div>
       <div className="contact-form">
         <label for="name">Name</label>
         <input type="text" className="form-control" placeholder="your name" />
@@ -49,6 +49,6 @@ export default function Contact() {
       <button id="submitBtn" type="submit">
         Submit
       </button>
-    </form>
+    </div>
   );
 }
