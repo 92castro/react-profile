@@ -1,6 +1,6 @@
 import React from "react";
 
-function NavTabs({ currentPage, handlePageChange }) {
+function NavBar({ currentPage, handlePageChange }) {
   return (
     <ul className="nav justify-content-center">
       <li className="nav-item">
@@ -43,4 +43,4 @@ function NavTabs({ currentPage, handlePageChange }) {
   );
 }
 
-export default NavTabs;
+export default NavBar;
