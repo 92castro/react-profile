@@ -1,8 +1,9 @@
 import React from "react";
+import "./Styles/nav.css";
 
 function NavBar({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav justify-content-center">
+    <ul id="nav" className="nav justify-content-center">
       <li className="nav-item">
         <a
           href="#home"

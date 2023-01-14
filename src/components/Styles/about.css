@@ -1,0 +1,28 @@
+p {
+  padding-block: 15px;
+  text-align: justify;
+  color: whitesmoke;
+  font-size: 20px;
+  line-height: 50px;
+  padding-right: 30px;
+}
+
+.profilepic {
+  height: 580px;
+  width: auto;
+  border-radius: 10% / 50%;
+}
+
+#main {
+  display: flex;
+  flex-direction: row-reverse;
+  background: linear-gradient(rgba(104, 29, 29, 0.77), rgb(0, 0, 0));
+  margin: 50px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+#git {
+  background-color: black;
+  padding: 5px;
+}
