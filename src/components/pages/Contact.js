@@ -15,7 +15,12 @@ export default function Contact() {
   };
   return (
     <div>
-      <h1>Celin Castro</h1>
+      {/* <div class="cater3-movingBG"> */}
+      <div class="flyinTxtCont">
+        <h1 class="flyIn lineOne">Celin Castro</h1>
+      </div>
+      {/* </div> */}
+      {/* <h1>Celin Castro</h1> */}
       <div id="contact">
         <div className="contact-form">
           <label for="name">Name</label>

@@ -7,7 +7,10 @@ import Github from "../pictures/github.png";
 export default function About() {
   return (
     <div>
-      <h1>Celin Castro</h1>
+      <div class="flyinTxtCont">
+        <h1 class="flyIn lineOne">Celin Castro</h1>
+      </div>
+      {/* <h1>Celin Castro</h1> */}
       <div id="main">
         <img class="profilepic" src={Profilepic} alt="profile pic" />
         <p>
@@ -22,7 +25,7 @@ export default function About() {
           I promise there's more to come!
         </p>
       </div>
-      <div id="aBlock" className="container">
+      <div id="aBlock" className="container text-white">
         <div className="row d-flex justify-content-around">
           <div className="col-sm-12 col-md-4 lowerBoxes">
             <h3>My Resume</h3>

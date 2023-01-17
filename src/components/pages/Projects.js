@@ -10,7 +10,9 @@ import Planner from "../pictures/planner.PNG";
 export default function Projects() {
   return (
     <div>
-      <h1>Celin Castro</h1>
+      <div class="flyinTxtCont">
+        <h1 class="flyIn lineOne">Celin Castro</h1>
+      </div>
       <div id="block" class="container">
         <div class="row">
           <div className="col-sm-12 col-md-4 lowerBoxes">

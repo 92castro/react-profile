@@ -1,17 +1,19 @@
 import React, { useState } from "react";
+import "../App.css";
+import background from "./pictures/photo2.jpg";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import Home from "./pages/Home";
+import Resume from "./pages/Resume";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
-    if (currentPage === "Home") {
-      return <Home />;
+    if (currentPage === "Resume") {
+      return <Resume />;
     }
     if (currentPage === "About") {
       return <About />;
@@ -25,7 +27,14 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div
+      id="App"
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
 
       {renderPage()}
