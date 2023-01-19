@@ -28,13 +28,13 @@ export default function About() {
       <div id="aBlock" className="container text-white">
         <div className="row d-flex justify-content-around">
           <div className="col-sm-12 col-md-4 lowerBoxes">
-            <h3>My Resume</h3>
+            <h2>My Resume</h2>
             <a href="" target="_blank">
               <img src={Resume} className="img-fluid" alt="Resume" />
             </a>
           </div>
           <div className="col-sm-12 col-md-4 lowerBoxes">
-            <h3> My GitHub</h3>
+            <h2> My GitHub</h2>
             <a href="https://github.com/92castro" target="_blank">
               <img src={Github} id="git" className="img-fluid" alt="GitHub" />
             </a>

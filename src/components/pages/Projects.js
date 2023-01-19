@@ -20,17 +20,19 @@ export default function Projects() {
             <a href="https://jerimiahk.github.io/WEBaboos/" target="_blank">
               <img src={Webaboos} className="img-fluid" alt="Project 1" />
             </a>
-            <a
-              className="nav-item"
-              class="d-flex justify-content-end"
-              href="https://github.com/JerimiahK/WEBaboos"
-              target="_blank"
-            >
-              {" "}
-              (Repo)
-            </a>{" "}
-            <br></br>
-            My first project
+            <h6 class="mt-2">
+              My first team project was a fun application using third-party-APIs
+              to display a picture and random quote plus a wiki page of the
+              anime the user searches
+              <br></br>
+              <a
+                className="text-warning"
+                href="https://github.com/JerimiahK/WEBaboos"
+                target="_blank"
+              >
+                (GitHub Link)
+              </a>
+            </h6>
           </div>
 
           <div className="col-sm-12 col-md-4 lowerBoxes">
@@ -38,15 +40,18 @@ export default function Projects() {
             <a href="https://lit-castle-55469.herokuapp.com/" target="_blank">
               <img src={Hogwarts} className="img-fluid" alt="project 2" />
             </a>
-            <a
-              className="nav-item"
-              href="https://github.com/MandieBot/Sorting-Hat"
-              target="_blank"
-            >
-              (Repo)
-            </a>{" "}
-            <br></br>
-            project 2
+            <h6 class="mt-2">
+              In my second team project we built a database and routes for users
+              to sign up and register to join the school of wizards
+              <br></br>
+              <a
+                className="text-warning"
+                href="https://github.com/MandieBot/Sorting-Hat"
+                target="_blank"
+              >
+                (GitHub Link)
+              </a>
+            </h6>
           </div>
 
           <div className="col-sm-12 col-md-4 lowerBoxes">
@@ -57,15 +62,20 @@ export default function Projects() {
             >
               <img src={Quiz} className="img-fluid" alt="quiz" />
             </a>
-            <a
-              className="nav-item"
-              href="https://github.com/92castro/challenge-quiz"
-              target="_blank"
-            >
-              (Repo)
-            </a>
-            <br></br>
-            quiz info
+
+            <h6 class="mt-2">
+              I built a quiz application to test my JavaScript skills where a
+              timer begins when the user clicks "Start" and if you get a wrong
+              answer, seconds are deducted from the timer
+              <br></br>
+              <a
+                className="text-warning"
+                href="https://github.com/92castro/challenge-quiz"
+                target="_blank"
+              >
+                (GitHub Link)
+              </a>
+            </h6>
           </div>
           <div className="col-sm-12 col-md-4 lowerBoxes">
             <h3>Weather Dash-Board</h3>
@@ -79,15 +89,20 @@ export default function Projects() {
                 alt="weather dashboard"
               />
             </a>
-            <a
-              className="nav-item"
-              href="https://github.com/92castro/weather-dashboard"
-              target="_blank"
-            >
-              (Repo)
-            </a>{" "}
-            <br></br>
-            weather info
+
+            <h6 class="mt-2">
+              I built this weather dashboard app using a Weather API where a
+              user can look up any city and will be presented with the city's
+              current forecast plus the next 5 day forecast
+              <br></br>
+              <a
+                className="text-warning"
+                href="https://github.com/92castro/weather-dashboard"
+                target="_blank"
+              >
+                (GitHub Link)
+              </a>
+            </h6>
           </div>
           <div className="col-sm-12 col-md-4 lowerBoxes">
             <h3>Work Panner</h3>
@@ -97,30 +112,42 @@ export default function Projects() {
             >
               <img src={Planner} className="img-fluid" alt="Planner" />
             </a>
-            <a
-              className="nav-item"
-              href="https://github.com/92castro/work-day-scheduler-"
-              target="_blank"
-            >
-              (Repo)
-            </a>
-            <br></br>
-            planner info
+            <h6 class="mt-2">
+              Do you have a busy work schedule? Here I have a helpful work-day
+              planner I built where a user can plan their work day by typing in
+              their task to the appropriate time slot. I also built a local
+              storage to save each task
+              <br></br>
+              <a
+                className="text-warning"
+                href="https://github.com/92castro/work-day-scheduler-"
+                target="_blank"
+              >
+                (GitHub Link)
+              </a>
+            </h6>
           </div>
           <div className="col-sm-12 col-md-4 lowerBoxes">
             <h3>Password Generator</h3>
-            <a href="https://92castro.github.io/Password-Generator/">
-              <img src={Password} className="img-fluid" alt="password" />
-            </a>
             <a
-              className="nav-item"
-              href="https://github.com/92castro/Password-Generator"
+              href="https://92castro.github.io/Password-Generator/"
               target="_blank"
             >
-              (Repo)
-            </a>{" "}
-            <br></br>
-            password info
+              <img src={Password} className="img-fluid" alt="password" />
+            </a>
+            <h6 class="mt-2">
+              This password generator app can create a random password between
+              8-128 characters and the user can select from upper or lower case
+              letters, numbers, or special characters
+              <br></br>
+              <a
+                className="text-warning"
+                href="https://github.com/92castro/Password-Generator"
+                target="_blank"
+              >
+                (GitHub Link)
+              </a>
+            </h6>
           </div>
         </div>
       </div>

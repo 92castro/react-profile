@@ -1,10 +1,20 @@
-h4 {
-  padding-left: 35px;
-  padding-right: 150px;
-  color: blue;
-  font-size: 20px;
-  line-height: 30px;
+h3 {
+  color: rgb(58, 87, 128);
+  border: solid rgba(34, 29, 29, 0.514);
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: center;
+  background-color: rgba(172, 134, 127, 0.597);
+}
+
+h6 {
+  margin-top: 10px;
+  padding: 5px;
+  color: whitesmoke;
+  font-size: 17px;
   text-align: justify;
+  background-color: rgba(118, 93, 93, 0.73);
+  border-radius: 10px;
 }
 
 #block {

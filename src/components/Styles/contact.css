@@ -12,6 +12,7 @@ h1 {
   padding-top: 100px;
   padding-left: 45px;
   padding-right: 45px;
+  padding-bottom: 125px;
 }
 
 @keyframes animatedBackground {
