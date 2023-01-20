@@ -1,0 +1,46 @@
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-top-right-radius: 20px;
+}
+
+.html {
+  width: 95%;
+  background-color: #667fc1;
+}
+.react {
+  width: 80%;
+  background-color: #7d4a4d;
+}
+.js {
+  width: 90%;
+  background-color: #b7ab59;
+}
+.handle {
+  width: 65%;
+  background-color: #9d7db2;
+}
+.mongo {
+  width: 75%;
+  background-color: #518371;
+}
+
+#skills {
+  background-color: rgba(65, 88, 103, 0.74);
+  padding: 10px;
+  border-style: dashed;
+}
+
+#boxS {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+#resume {
+  padding-left: 50px;
+}

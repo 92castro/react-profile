@@ -33,6 +33,7 @@ export default function PortfolioContainer() {
         backgroundImage: `url(${background})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
       }}
     >
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />

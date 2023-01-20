@@ -34,7 +34,6 @@ export default function Projects() {
               </a>
             </h6>
           </div>
-
           <div className="col-sm-12 col-md-4 lowerBoxes">
             <h3> Hogwarts Enrollment</h3>
             <a href="https://lit-castle-55469.herokuapp.com/" target="_blank">
