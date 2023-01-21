@@ -36,8 +36,8 @@ function Footer() {
         <li class="nav-item">
           <a
             class="nav-link"
-            href=""
-            download="Resume"
+            href="https://docs.google.com/document/d/1YdiGo81dLMefY1WsZJhUc2LYpoOJhBg7nE_qNPm-Jg8/export?format=pdf"
+            download="myResume"
             target="_blank"
             rel="noreferrer"
           >

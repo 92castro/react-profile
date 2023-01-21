@@ -31,16 +31,12 @@
   background-color: rgba(65, 88, 103, 0.74);
   padding: 10px;
   border-style: dashed;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
 #boxS {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: start;
   margin-left: 10px;
   margin-top: 30px;
-}
-
-#resume {
-  padding-left: 50px;
+  margin-bottom: 15px;
 }
