@@ -2,9 +2,7 @@
 
 ## My Task
 
-As an upcoming web developer, I need a place to not only share my projects while I'm applying for jobs or working as a freelancer but also to share my work with other developers and collaborate on projects.
-
-My task was to create a portfolio using my new React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies.
+My task was to create a portfolio using my new React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies. As an upcoming web developer, I need a place to not only share my projects while I'm applying for jobs or working as a freelancer but also to share my work with other developers and collaborate on projects. This page is also for employers looking to hire possible candidate for their position.
 
 ## User Story
 
@@ -46,4 +44,4 @@ My Github repo page
 
 Deployed page through Heroku
 
-- https://castro-pwa-text-editor.herokuapp.com/
+- https://92castro.github.io/react-profile/
