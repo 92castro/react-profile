@@ -42,6 +42,6 @@ My Github repo page
 
 - https://github.com/92castro/react-profile
 
-Deployed page through Heroku
+Deployed page through GitHub
 
 - https://92castro.github.io/react-profile/
