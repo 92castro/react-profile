@@ -4,7 +4,7 @@ import Webaboos from "../pictures/webaboos.PNG";
 import Quiz from "../pictures/quizhw.PNG";
 import Hogwarts from "../pictures/hogwartsdb.PNG";
 import Weather from "../pictures/weatherdash.PNG";
-import Password from "../pictures/password.PNG";
+import Golden from "../pictures/goldengoosef.PNG";
 import Planner from "../pictures/planner.PNG";
 
 export default function Projects() {
@@ -52,24 +52,24 @@ export default function Projects() {
               </a>
             </h6>
           </div>
-
           <div className="col-sm-12 col-md-4 lowerBoxes">
-            <h3>SpongeBob Quiz</h3>
+            <h3>Golden Goose Finance</h3>
             <a
-              href="https://92castro.github.io/challenge-quiz/"
+              href="https://golden-goose-finance.herokuapp.com/"
               target="_blank"
             >
-              <img src={Quiz} className="img-fluid" alt="quiz" />
+              <img src={Golden} className="img-fluid" alt="quiz" />
             </a>
 
             <h6 class="mt-2">
-              I built a quiz application to test my JavaScript skills where a
-              timer begins when the user clicks "Start" and if you get a wrong
-              answer, seconds are deducted from the timer
+              My team and I built a financial tracker for users to keep up with
+              daily expenses, monthly bills, and savings goals. This app also
+              has graphs on the dashboard page to display how much the user
+              spends.
               <br></br>
               <a
                 className="text-warning"
-                href="https://github.com/92castro/challenge-quiz"
+                href="https://github.com/edyta0106/Financial_Tracker"
                 target="_blank"
               >
                 (GitHub Link)
@@ -127,21 +127,21 @@ export default function Projects() {
             </h6>
           </div>
           <div className="col-sm-12 col-md-4 lowerBoxes">
-            <h3>Password Generator</h3>
+            <h3>SpongeBob Quiz</h3>
             <a
-              href="https://92castro.github.io/Password-Generator/"
+              href="https://92castro.github.io/challenge-quiz/"
               target="_blank"
             >
-              <img src={Password} className="img-fluid" alt="password" />
+              <img src={Quiz} className="img-fluid" alt="quiz" />
             </a>
             <h6 class="mt-2">
-              This password generator app can create a random password between
-              8-128 characters and the user can select from upper or lower case
-              letters, numbers, or special characters
+              I built a quiz application to test my JavaScript skills where a
+              timer begins when the user clicks "Start" and if you get a wrong
+              answer, seconds are deducted from the timer
               <br></br>
               <a
                 className="text-warning"
-                href="https://github.com/92castro/Password-Generator"
+                href="https://github.com/92castro/challenge-quiz"
                 target="_blank"
               >
                 (GitHub Link)

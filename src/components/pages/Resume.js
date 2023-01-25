@@ -2,6 +2,23 @@ import React from "react";
 import "../Styles/resume.css";
 import myResume from "../pictures/resume.PNG";
 import Github from "../pictures/github.png";
+import {
+  SiHtml5,
+  SiCss3,
+  SiReact,
+  SiMongodb,
+  SiJavascript,
+  SiNodedotjs,
+  SiHeroku,
+  SiMysql,
+  SiBootstrap,
+  SiJquery,
+  SiVisualstudiocode,
+  SiNpm,
+  SiGraphql,
+  SiHandlebarsdotjs,
+  SiInsomnia,
+} from "react-icons/si";
 
 export default function Resume() {
   return (
@@ -13,36 +30,47 @@ export default function Resume() {
         <div id="skills">
           <h2 className="text-center">SKILLS</h2>
           <br></br>
-          HTML/CSS
-          <div>
+          <div className="d-flex justify-content-evenly">
             <div>
-              <div class="skills html " style={{ height: "30px" }}>
-                95%
-              </div>
+              <SiHtml5 size={45} />
             </div>
-            JavaScript/jQuery
             <div>
-              <div class="skills js" style={{ height: "30px" }}>
-                90%
-              </div>
+              <SiCss3 size={45} />
             </div>
-            React
             <div>
-              <div class="skills react" style={{ height: "30px" }}>
-                80%
-              </div>
+              <SiJavascript size={45} />
             </div>
-            MongoDB/MySQL
             <div>
-              <div class="skills mongo" style={{ height: "30px" }}>
-                75%
-              </div>
+              <SiReact size={45} />
             </div>
-            Handlebars
             <div>
-              <div class="skills handle" style={{ height: "30px" }}>
-                65%
-              </div>
+              <SiNodedotjs size={45} />
+            </div>
+            <div>
+              <SiNpm size={45} />
+            </div>
+          </div>
+          <br></br>
+          <h2 className="text-center">APPLICATIONS</h2>
+          <br></br>
+          <div className="d-flex justify-content-evenly">
+            <div>
+              <SiHeroku size={45} />
+            </div>
+            <div>
+              <SiVisualstudiocode size={45} />
+            </div>
+            <div>
+              <SiMongodb size={45} />
+            </div>
+            <div>
+              <SiGraphql size={45} />
+            </div>
+            <div>
+              <SiMysql size={45} />
+            </div>
+            <div>
+              <SiInsomnia size={45} />
             </div>
           </div>
         </div>
