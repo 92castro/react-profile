@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-profile/static/css/main.8075c401.css",
-    "main.js": "/react-profile/static/js/main.5d7aa900.js",
+    "main.js": "/react-profile/static/js/main.2c3c0f99.js",
     "static/media/photo2.jpg": "/react-profile/static/media/photo2.a63d6aba574de3b8a2fe.jpg",
     "static/media/hogwartsdb.PNG": "/react-profile/static/media/hogwartsdb.dcda1dbec559bb1ab798.PNG",
     "static/media/webaboos.PNG": "/react-profile/static/media/webaboos.6cc9abd6874376b040ee.PNG",
@@ -14,10 +14,10 @@
     "static/media/github.png": "/react-profile/static/media/github.1e61d3b363eea7dd0958.png",
     "index.html": "/react-profile/index.html",
     "main.8075c401.css.map": "/react-profile/static/css/main.8075c401.css.map",
-    "main.5d7aa900.js.map": "/react-profile/static/js/main.5d7aa900.js.map"
+    "main.2c3c0f99.js.map": "/react-profile/static/js/main.2c3c0f99.js.map"
   },
   "entrypoints": [
     "static/css/main.8075c401.css",
-    "static/js/main.5d7aa900.js"
+    "static/js/main.2c3c0f99.js"
   ]
 }
