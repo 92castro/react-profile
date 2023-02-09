@@ -28,7 +28,7 @@ export default function Resume() {
       </div>
       <div id="boxS">
         <div id="skills">
-          <h2 className="text-center">SKILLS</h2>
+          <h2 className="text-center">SKILLS & APPLICATIONS</h2>
           <br></br>
           <div className="d-flex justify-content-evenly">
             <div>
@@ -51,7 +51,6 @@ export default function Resume() {
             </div>
           </div>
           <br></br>
-          <h2 className="text-center">APPLICATIONS</h2>
           <br></br>
           <div className="d-flex justify-content-evenly">
             <div>
