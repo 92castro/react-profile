@@ -18,16 +18,16 @@ export default function About() {
           the time to visit my portfolio. My name is Celin Castro, and I was
           born in The Golden State-California, raised in The Great State of
           Texas, and now I live in Colorful Colorado! I recently graduated from
-          the University of Denver where I completed an intense full-stack web
-          development bootcamp and I'm eager to bring my skills and passion to
-          the industry. In addition to my technical skills, I have strong
-          problem-solving and communication abilities, which I honed through
-          various team projects during my bootcamp. I am a quick learner and
-          able to work well under pressure. I believe my technical skills,
-          combined with my positive attitude, and eagerness to learn, will make
-          me a valuable addition to any development team. I look forward to
-          using my skills and experience to help organizations build innovative
-          and user-friendly websites and technologies.
+          the University of Denver with a Certificate in Full Stack Development
+          and I'm eager to bring my skills and passion to the industry. In
+          addition to my technical skills, I have strong problem-solving and
+          communication abilities, which I honed through various team projects
+          during my studies. I am a quick learner and able to work well under
+          pressure. I believe my technical skills, combined with my positive
+          attitude, and eagerness to learn, will make me a valuable addition to
+          any development team. I look forward to using my skills and experience
+          to help organizations build innovative and user-friendly websites and
+          technologies.
         </p>
       </div>
     </div>
